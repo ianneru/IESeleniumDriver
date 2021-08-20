@@ -5,3 +5,35 @@ Testado com Internet Explorer 11 e rodando na versão versão 3.150.1 (https://g
 
 Projeto em elaboração e futuramente assumir demais versões do Internet Explorer.
 
+## Utilização :
+
+Basicamente utiliza a classe **InternetExplorerDriver** para criar instâncias do driver.
+
+```c#
+    Driver = new InternetExplorerDriver(PathDriver);
+```
+
+Após isso, navegar no site:
+
+```c#
+   configuration.Driver.Navegar(configuration.UrlSite);
+```
+Após isso, navegar no site:
+
+```c#
+   configuration.Driver.Navegar(configuration.UrlSite);
+```
+Logo, pode-se alterar os comportamentos/acessar funcionalidades dos elementos da página:
+
+```c#
+    private void SelecionarUnidade()
+    {
+        configuration.Driver
+                    .GetSelect("cmbUnidade", BuscaPor.Name)
+                    .SelecionarPorTexto("CIVEL");
+
+        configuration.Driver.GetBotao("btOk", BuscaPor.Name)
+                    .Clicar();
+    }
+```
+
