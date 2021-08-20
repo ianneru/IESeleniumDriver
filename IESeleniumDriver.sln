@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IESeleniumDriver", "ie-driver-selenium\IESeleniumDriver.csproj", "{B32060AE-2A08-4AFA-AA4F-BDDE2187EB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32060AE-2A08-4AFA-AA4F-BDDE2187EB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32060AE-2A08-4AFA-AA4F-BDDE2187EB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32060AE-2A08-4AFA-AA4F-BDDE2187EB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32060AE-2A08-4AFA-AA4F-BDDE2187EB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A2A26B-9E96-4F39-A58B-0F128F461809}
+	EndGlobalSection
+EndGlobal
