@@ -1,1 +1,1 @@
-Framework de driver Selenium para internet explorer versão 3.150.1
+Framework para utilização do driver Selenium para Internet Explorer versão 3.150.1
