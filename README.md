@@ -18,11 +18,7 @@ Após isso, navegar no site:
 ```c#
    configuration.Driver.Navegar(configuration.UrlSite);
 ```
-Após isso, navegar no site:
 
-```c#
-   configuration.Driver.Navegar(configuration.UrlSite);
-```
 Logo, pode-se alterar os comportamentos/acessar funcionalidades dos elementos da página:
 
 ```c#
